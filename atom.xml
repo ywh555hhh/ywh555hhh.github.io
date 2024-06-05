@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-04T13:31:18.858Z</updated>
+  <updated>2024-06-05T05:44:04.581Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于本站的建设情况</title>
+    <link href="http://example.com/2024/06/05/002/"/>
+    <id>http://example.com/2024/06/05/002/</id>
+    <published>2024-06-05T05:40:10.000Z</published>
+    <updated>2024-06-05T05:44:04.581Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="建站初心"><a href="#建站初心" class="headerlink" title="建站初心"></a>建站初心</h1><p>就是需要一个地方来记录各种事情呢</p><p>不仅是学习 也是 感悟 与 生活</p><h2 id="待完成"><a href="#待完成" class="headerlink" title="待完成"></a>待完成</h2><p>丰富的封面</p><p>建站时间线</p><p>rsshub</p><p>加速</p><p>about me</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;建站初心&quot;&gt;&lt;a href=&quot;#建站初心&quot; class=&quot;headerlink&quot; title=&quot;建站初心&quot;&gt;&lt;/a&gt;建站初心&lt;/h1&gt;&lt;p&gt;就是需要一个地方来记录各种事情呢&lt;/p&gt;
+&lt;p&gt;不仅是学习 也是 感悟 与 生活&lt;/p&gt;
+&lt;h2 id=&quot;待完成&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="no categories" scheme="http://example.com/categories/no-categories/"/>
+    
+    
+    <category term="no tag" scheme="http://example.com/tags/no-tag/"/>
+    
+  </entry>
+  
+  <entry>
     <title>My first pose</title>
     <link href="http://example.com/2024/06/04/My-first-pose/"/>
     <id>http://example.com/2024/06/04/My-first-pose/</id>
     <published>2024-06-04T13:25:14.000Z</published>
-    <updated>2024-06-04T13:31:18.858Z</updated>
+    <updated>2024-06-05T05:44:04.589Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是我的建立本站的第一篇博客"><a href="#这是我的建立本站的第一篇博客" class="headerlink" title="这是我的建立本站的第一篇博客"></a>这是我的建立本站的第一篇博客</h1><h2 id="我最近过的怎么样"><a href="#我最近过的怎么样" class="headerlink" title="我最近过的怎么样"></a>我最近过的怎么样</h2><p>我只能说自己很有幸在大学生涯最起码不是盲目的，最起码不是漫无目的地过日，我有发掘一些我想做的事，并且可以把自己的时间花在这上面，我觉得这挺不错的，我的整个大二也是快要结束了，很可惜时至今日才开始逐步搭建自己的博客，但怎么说呢，“开始一件事的最适合的一天的是昨天，第二好的可就是今天了”。我不会觉的自己的大一毫无意义，但我也倾向认为在大二才在计算机世界里找到了真正的自我。</p><p>最近也是通过一些抖音上的“速看电影系列”，浏览一下有深度的电影，我知道通过剪辑版可能没法完全领略其深意，但我仍然有所触动，有些是关于亲情的，有些是关于友情的，有些是关于哲理的。总之是感触很多，就是可惜自己的文字表达能力着实有限，可能并没有办法在这表达出来。</p><p>一句共勉，可能是现在最想说的，最近也是认识了很多新朋友！</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">user:</span> <span class="string">Wayne</span> <span class="string">Yi</span></span><br><span class="line"><span class="attr">nickname:</span> <span class="string">teapot1de</span></span><br><span class="line"><span class="attr">chineseName:</span> <span class="string">易炜涵</span></span><br></pre></td></tr></table></figure><p>看一下是否会渲染成功</p>]]></content>
     
@@ -36,6 +65,10 @@
     
     
     
+    <category term="no categories" scheme="http://example.com/categories/no-categories/"/>
+    
+    
+    <category term="no tag" scheme="http://example.com/tags/no-tag/"/>
     
   </entry>
   
