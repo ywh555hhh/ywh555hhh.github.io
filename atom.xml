@@ -46,13 +46,13 @@
   </entry>
   
   <entry>
-    <title>My first pose</title>
-    <link href="http://example.com/2024/06/04/My-first-pose/"/>
-    <id>http://example.com/2024/06/04/My-first-pose/</id>
+    <title>My first post</title>
+    <link href="http://example.com/2024/06/04/001/"/>
+    <id>http://example.com/2024/06/04/001/</id>
     <published>2024-06-04T13:25:14.000Z</published>
-    <updated>2024-06-05T05:44:04.589Z</updated>
+    <updated>2024-06-05T05:56:15.415Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="这是我的建立本站的第一篇博客"><a href="#这是我的建立本站的第一篇博客" class="headerlink" title="这是我的建立本站的第一篇博客"></a>这是我的建立本站的第一篇博客</h1><h2 id="我最近过的怎么样"><a href="#我最近过的怎么样" class="headerlink" title="我最近过的怎么样"></a>我最近过的怎么样</h2><p>我只能说自己很有幸在大学生涯最起码不是盲目的，最起码不是漫无目的地过日，我有发掘一些我想做的事，并且可以把自己的时间花在这上面，我觉得这挺不错的，我的整个大二也是快要结束了，很可惜时至今日才开始逐步搭建自己的博客，但怎么说呢，“开始一件事的最适合的一天的是昨天，第二好的可就是今天了”。我不会觉的自己的大一毫无意义，但我也倾向认为在大二才在计算机世界里找到了真正的自我。</p><p>最近也是通过一些抖音上的“速看电影系列”，浏览一下有深度的电影，我知道通过剪辑版可能没法完全领略其深意，但我仍然有所触动，有些是关于亲情的，有些是关于友情的，有些是关于哲理的。总之是感触很多，就是可惜自己的文字表达能力着实有限，可能并没有办法在这表达出来。</p><p>一句共勉，可能是现在最想说的，最近也是认识了很多新朋友！</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">user:</span> <span class="string">Wayne</span> <span class="string">Yi</span></span><br><span class="line"><span class="attr">nickname:</span> <span class="string">teapot1de</span></span><br><span class="line"><span class="attr">chineseName:</span> <span class="string">易炜涵</span></span><br></pre></td></tr></table></figure><p>看一下是否会渲染成功</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="这是我的建立本站的第一篇博客"><a href="#这是我的建立本站的第一篇博客" class="headerlink" title="这是我的建立本站的第一篇博客"></a>这是我的建立本站的第一篇博客</h1><h2 id="我最近过的怎么样"><a href="#我最近过的怎么样" class="headerlink" title="我最近过的怎么样"></a>我最近过的怎么样</h2><p>我只能说自己很有幸在大学生涯最起码不是盲目的，最起码不是漫无目的地过日，我有发掘一些我想做的事，并且可以把自己的时间花在这上面，我觉得这挺不错的，我的整个大二也是快要结束了，很可惜时至今日才开始逐步搭建自己的博客，但怎么说呢，“开始一件事的最适合的一天的是昨天，第二好的可就是今天了”。我不会觉的自己的大一毫无意义，但我也倾向认为在大二才在计算机世界里找到了真正的自我。</p><p>最近也是通过一些抖音上的“速看电影系列”，浏览一下有深度的电影，我知道通过剪辑版可能没法完全领略其深意，但我仍然有所触动，有些是关于亲情的，有些是关于友情的，有些是关于哲理的。总之是感触很多，就是可惜自己的文字表达能力着实有限，可能并没有办法在这表达出来。</p><p>一句共勉，可能是现在最想说的，最近也是认识了很多新朋友！</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">user:</span> <span class="string">Wayne</span> <span class="string">Yi</span></span><br><span class="line"><span class="attr">nickname:</span> <span class="string">teapot1de</span></span><br><span class="line"><span class="attr">chineseName:</span> <span class="string">易炜涵</span></span><br></pre></td></tr></table></figure><p>可以渲染的</p>]]></content>
     
     
       
@@ -73,25 +73,30 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>Hello blog World</title>
     <link href="http://example.com/2024/06/04/hello-world/"/>
     <id>http://example.com/2024/06/04/hello-world/</id>
     <published>2024-06-04T01:57:09.546Z</published>
-    <updated>2024-06-04T01:57:09.547Z</updated>
+    <updated>2024-06-05T05:56:15.415Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>hello!</p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;hello!&lt;/p&gt;
+</summary>
         
       
     
     
     
+    <category term="Hello World" scheme="http://example.com/categories/Hello-World/"/>
+    
+    
+    <category term="Hello World" scheme="http://example.com/tags/Hello-World/"/>
     
   </entry>
   
