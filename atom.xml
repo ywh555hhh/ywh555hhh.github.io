@@ -3,11 +3,11 @@
   <title>WayneBlog</title>
   
   <subtitle>never say never</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://ywh555hhh.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://ywh555hhh.github.io/"/>
   <updated>2024-06-06T12:35:55.650Z</updated>
-  <id>http://example.com/</id>
+  <id>https://ywh555hhh.github.io/</id>
   
   <author>
     <name>Wayne Yi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于搜索算法</title>
-    <link href="http://example.com/2024/06/06/003/"/>
-    <id>http://example.com/2024/06/06/003/</id>
+    <link href="https://ywh555hhh.github.io/2024/06/06/003/"/>
+    <id>https://ywh555hhh.github.io/2024/06/06/003/</id>
     <published>2024-06-06T12:31:17.000Z</published>
     <updated>2024-06-06T12:35:55.650Z</updated>
     
@@ -36,19 +36,19 @@
     
     
     
-    <category term="人工智能" scheme="http://example.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://ywh555hhh.github.io/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://ywh555hhh.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
-    <category term="学习笔记" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://ywh555hhh.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>关于本站的建设情况</title>
-    <link href="http://example.com/2024/06/05/002/"/>
-    <id>http://example.com/2024/06/05/002/</id>
+    <link href="https://ywh555hhh.github.io/2024/06/05/002/"/>
+    <id>https://ywh555hhh.github.io/2024/06/05/002/</id>
     <published>2024-06-05T05:40:10.000Z</published>
     <updated>2024-06-06T11:45:38.678Z</updated>
     
@@ -67,17 +67,17 @@
     
     
     
-    <category term="no categories" scheme="http://example.com/categories/no-categories/"/>
+    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
     
     
-    <category term="no tag" scheme="http://example.com/tags/no-tag/"/>
+    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
     
   </entry>
   
   <entry>
     <title>My First Post</title>
-    <link href="http://example.com/2024/06/04/001/"/>
-    <id>http://example.com/2024/06/04/001/</id>
+    <link href="https://ywh555hhh.github.io/2024/06/04/001/"/>
+    <id>https://ywh555hhh.github.io/2024/06/04/001/</id>
     <published>2024-06-04T13:25:14.000Z</published>
     <updated>2024-06-05T10:17:24.063Z</updated>
     
@@ -94,17 +94,17 @@
     
     
     
-    <category term="no categories" scheme="http://example.com/categories/no-categories/"/>
+    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
     
     
-    <category term="no tag" scheme="http://example.com/tags/no-tag/"/>
+    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
     
   </entry>
   
   <entry>
     <title>Hello blog World</title>
-    <link href="http://example.com/2024/06/04/hello-world/"/>
-    <id>http://example.com/2024/06/04/hello-world/</id>
+    <link href="https://ywh555hhh.github.io/2024/06/04/hello-world/"/>
+    <id>https://ywh555hhh.github.io/2024/06/04/hello-world/</id>
     <published>2024-06-04T01:57:09.546Z</published>
     <updated>2024-06-05T05:56:15.415Z</updated>
     
@@ -122,10 +122,10 @@
     
     
     
-    <category term="Hello World" scheme="http://example.com/categories/Hello-World/"/>
+    <category term="Hello World" scheme="https://ywh555hhh.github.io/categories/Hello-World/"/>
     
     
-    <category term="Hello World" scheme="http://example.com/tags/Hello-World/"/>
+    <category term="Hello World" scheme="https://ywh555hhh.github.io/tags/Hello-World/"/>
     
   </entry>
   
