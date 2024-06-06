@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-06T11:45:38.678Z</updated>
+  <updated>2024-06-06T12:35:55.650Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于搜索算法</title>
+    <link href="http://example.com/2024/06/06/003/"/>
+    <id>http://example.com/2024/06/06/003/</id>
+    <published>2024-06-06T12:31:17.000Z</published>
+    <updated>2024-06-06T12:35:55.650Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/image/serach.excalidraw.svg" alt="pic"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/image/serach.excalidraw.svg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="人工智能" scheme="http://example.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    
+    <category term="人工智能" scheme="http://example.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="学习笔记" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>关于本站的建设情况</title>
