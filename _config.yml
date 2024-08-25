@@ -4,16 +4,17 @@
 
 # Site
 title: WayneBlog
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'never say never'
+description: 'To blog or not to blog, that is the question'
+keywords: 'blog, hexo, theme, butterfly,开源,博客,南昌大学
+'
 author: Wayne Yi
-language: cn
-timezone: ''
+language: zn-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ywh555hhh.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -30,6 +31,16 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  autodiscovery: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -40,7 +51,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js

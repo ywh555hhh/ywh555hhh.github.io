@@ -1,0 +1,6 @@
+hexo server -d
+open http://localhost:4000/admin/
+
+hexo clean && hexo generate && hexo deploy
+
+hexo new post "你的文章标题"
