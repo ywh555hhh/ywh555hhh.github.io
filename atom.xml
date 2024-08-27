@@ -77,7 +77,7 @@
     <link href="https://ywh555hhh.github.io/2024/08/03/CSAPP%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>https://ywh555hhh.github.io/2024/08/03/CSAPP%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</id>
     <published>2024-08-03T13:30:00.000Z</published>
-    <updated>2024-08-27T14:51:14.677Z</updated>
+    <updated>2024-08-27T14:53:10.841Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是一篇读书笔记"><a href="#这是一篇读书笔记" class="headerlink" title="这是一篇读书笔记"></a>这是一篇读书笔记</h1><p>拜读传统意义上的神作，CSAPP，我不会很体系的去整理这份笔记，我将拿出那些平时我没有关注到的细节记录下来</p><h1 id="编码-字符集-之流"><a href="#编码-字符集-之流" class="headerlink" title="编码 字符集 之流"></a>编码 字符集 之流</h1><p>字符集 这个概念其实早就应该走入我的视野，但是之前没有特别留意<br>现在明白了一直在将的ASCLL和unicode都是所谓的字符集<br>而所谓的utf-8，utf-16是不同的编码方式，本质上是不同的字符映射到不同的”码“，看看图就好了</p><p><img src="/images/pasted-2.png" alt="upload successful"></p><p>而同时书本告诉我我们日常打开的文件就分俩种:</p><ul><li>xxx.c xxx.java 为代表的文本文件</li><li>xxx.mp4 xxx.svg 为代表的二进制文件</li></ul><p>文本文件就是和编码方式有着关系，所以书里面会说这是关于位和上下文的世界，就像同样是一串数字，不同的上下文就规定着他们是不同的内容</p><h1 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h1><p>有趣的事实， shell 接收到的第一个单词不是内置命令的话 就会把它当成可执行的文件 所以 <code>./</code> 输入的其实是 什么是 文件地址吗 原来</p><p>在 shell 中，当你输入一个命令时，shell 首先会查看这个命令是否是一个内置的命令，比如 <code>cd</code>、<code>echo</code> 等。如果不是内置命令，shell 会尝试找到一个匹配的可执行文件来运行。</p><p>在输入命令时使用 <code>./</code> 前缀，如 <code>./myscript</code>，是一个指定当前目录为查找目录的方式。这告诉 shell 直接在当前目录中查找名为 <code>myscript</code> 的可执行文件，而不是去 PATH 环境变量指定的目录中查找。这样做可以提高命令的安全性，确保运行的是你期望的那个程序，而不是同名的其他程序。所以，<code>./</code> 是当前目录的路径表示，用来确保命令执行的是当前目录下的文件。</p><p>直接输入 <code>myscript</code> 是否能成功运行，取决于你的系统的 PATH 环境变量设置。PATH 环境变量定义了 shell 查找可执行文件的目录路径。如果当前目录（通常表示为 <code>.</code>）没有包含在 PATH 中，仅仅输入 <code>myscript</code> 是无法运行位于当前目录中的脚本或程序的，因为系统不会在当前目录查找。</p><p>大多数操作系统默认配置中，出于安全考虑，当前目录通常不包括在 PATH 中。这样做是为了防止可能的安全问题，例如，防止用户无意间运行恶意程序。因此，如果你想运行当前目录下的脚本或程序，通常需要使用 <code>./</code> 前缀，如 <code>./myscript</code>，这样才能确保执行的是当前目录下的文件。如果你确定要经常从任何目录运行某个目录下的程序，可以将该目录添加到 PATH 中。但请注意，这样做可能会带来安全风险。</p>]]></content>
     
@@ -92,7 +92,7 @@
     
     
     
-    <category term="技术博客" scheme="https://ywh555hhh.github.io/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    <category term="知识博客" scheme="https://ywh555hhh.github.io/categories/%E7%9F%A5%E8%AF%86%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="linux" scheme="https://ywh555hhh.github.io/tags/linux/"/>
@@ -133,8 +133,8 @@
     <title>暑假开始了</title>
     <link href="https://ywh555hhh.github.io/2024/07/05/006/"/>
     <id>https://ywh555hhh.github.io/2024/07/05/006/</id>
-    <published>2024-07-05T11:52:21.000Z</published>
-    <updated>2024-07-14T11:22:10.175Z</updated>
+    <published>2024-07-05T11:52:00.000Z</published>
+    <updated>2024-08-27T14:53:59.031Z</updated>
     
     <content type="html"><![CDATA[<h1 id="暑假的说法"><a href="#暑假的说法" class="headerlink" title="暑假的说法"></a>暑假的说法</h1><p>年年暑假说是一个改变自己的时候，从高考之后的暑假我才逐渐在践行这个理论<br>果真只有时间才能教会我一些东西</p>]]></content>
     
@@ -149,10 +149,8 @@
     
     
     
-    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
+    <category term="杂谈" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
-    
-    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
     
   </entry>
   
@@ -242,7 +240,7 @@
     <link href="https://ywh555hhh.github.io/2024/06/05/002/"/>
     <id>https://ywh555hhh.github.io/2024/06/05/002/</id>
     <published>2024-06-05T05:40:00.000Z</published>
-    <updated>2024-08-27T14:48:13.028Z</updated>
+    <updated>2024-08-27T14:54:12.232Z</updated>
     
     <content type="html"><![CDATA[<h1 id="建站初心"><a href="#建站初心" class="headerlink" title="建站初心"></a>建站初心</h1><p>就是需要一个地方来记录各种事情呢</p><p>不仅是学习 也是 感悟 与 生活</p><h2 id="好的资源的积累"><a href="#好的资源的积累" class="headerlink" title="好的资源的积累"></a>好的资源的积累</h2><p>A* 算法学习好资源 ：<a href="https://www.redblobgames.com/">https://www.redblobgames.com/</a></p><p><img src="/images/pasted-1.png" alt="REDBLOBGAMES"></p>]]></content>
     
@@ -259,7 +257,7 @@
     
     
     
-    <category term="杂言" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%A8%80/"/>
+    <category term="杂谈" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
   </entry>
