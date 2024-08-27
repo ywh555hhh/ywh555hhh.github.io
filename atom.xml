@@ -39,9 +39,9 @@
     <category term="DAIRY KEYBOARD" scheme="https://ywh555hhh.github.io/categories/DAIRY-KEYBOARD/"/>
     
     
-    <category term="ENG" scheme="https://ywh555hhh.github.io/tags/ENG/"/>
-    
     <category term="ROOM308" scheme="https://ywh555hhh.github.io/tags/ROOM308/"/>
+    
+    <category term="ENG" scheme="https://ywh555hhh.github.io/tags/ENG/"/>
     
   </entry>
   
@@ -76,8 +76,8 @@
     <title>CSAPP-01-漫游一遍找找感觉</title>
     <link href="https://ywh555hhh.github.io/2024/08/03/CSAPP%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>https://ywh555hhh.github.io/2024/08/03/CSAPP%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</id>
-    <published>2024-08-03T13:30:07.000Z</published>
-    <updated>2024-08-03T14:02:53.756Z</updated>
+    <published>2024-08-03T13:30:00.000Z</published>
+    <updated>2024-08-27T14:51:14.677Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是一篇读书笔记"><a href="#这是一篇读书笔记" class="headerlink" title="这是一篇读书笔记"></a>这是一篇读书笔记</h1><p>拜读传统意义上的神作，CSAPP，我不会很体系的去整理这份笔记，我将拿出那些平时我没有关注到的细节记录下来</p><h1 id="编码-字符集-之流"><a href="#编码-字符集-之流" class="headerlink" title="编码 字符集 之流"></a>编码 字符集 之流</h1><p>字符集 这个概念其实早就应该走入我的视野，但是之前没有特别留意<br>现在明白了一直在将的ASCLL和unicode都是所谓的字符集<br>而所谓的utf-8，utf-16是不同的编码方式，本质上是不同的字符映射到不同的”码“，看看图就好了</p><p><img src="/images/pasted-2.png" alt="upload successful"></p><p>而同时书本告诉我我们日常打开的文件就分俩种:</p><ul><li>xxx.c xxx.java 为代表的文本文件</li><li>xxx.mp4 xxx.svg 为代表的二进制文件</li></ul><p>文本文件就是和编码方式有着关系，所以书里面会说这是关于位和上下文的世界，就像同样是一串数字，不同的上下文就规定着他们是不同的内容</p><h1 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h1><p>有趣的事实， shell 接收到的第一个单词不是内置命令的话 就会把它当成可执行的文件 所以 <code>./</code> 输入的其实是 什么是 文件地址吗 原来</p><p>在 shell 中，当你输入一个命令时，shell 首先会查看这个命令是否是一个内置的命令，比如 <code>cd</code>、<code>echo</code> 等。如果不是内置命令，shell 会尝试找到一个匹配的可执行文件来运行。</p><p>在输入命令时使用 <code>./</code> 前缀，如 <code>./myscript</code>，是一个指定当前目录为查找目录的方式。这告诉 shell 直接在当前目录中查找名为 <code>myscript</code> 的可执行文件，而不是去 PATH 环境变量指定的目录中查找。这样做可以提高命令的安全性，确保运行的是你期望的那个程序，而不是同名的其他程序。所以，<code>./</code> 是当前目录的路径表示，用来确保命令执行的是当前目录下的文件。</p><p>直接输入 <code>myscript</code> 是否能成功运行，取决于你的系统的 PATH 环境变量设置。PATH 环境变量定义了 shell 查找可执行文件的目录路径。如果当前目录（通常表示为 <code>.</code>）没有包含在 PATH 中，仅仅输入 <code>myscript</code> 是无法运行位于当前目录中的脚本或程序的，因为系统不会在当前目录查找。</p><p>大多数操作系统默认配置中，出于安全考虑，当前目录通常不包括在 PATH 中。这样做是为了防止可能的安全问题，例如，防止用户无意间运行恶意程序。因此，如果你想运行当前目录下的脚本或程序，通常需要使用 <code>./</code> 前缀，如 <code>./myscript</code>，这样才能确保执行的是当前目录下的文件。如果你确定要经常从任何目录运行某个目录下的程序，可以将该目录添加到 PATH 中。但请注意，这样做可能会带来安全风险。</p>]]></content>
     
@@ -92,10 +92,12 @@
     
     
     
-    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
+    <category term="技术博客" scheme="https://ywh555hhh.github.io/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
+    <category term="linux" scheme="https://ywh555hhh.github.io/tags/linux/"/>
+    
+    <category term="计组" scheme="https://ywh555hhh.github.io/tags/%E8%AE%A1%E7%BB%84/"/>
     
   </entry>
   
@@ -104,7 +106,7 @@
     <link href="https://ywh555hhh.github.io/2024/08/03/%E8%B6%85%E7%AE%97%E9%98%9F%E5%B0%8F%E8%AE%B0/"/>
     <id>https://ywh555hhh.github.io/2024/08/03/%E8%B6%85%E7%AE%97%E9%98%9F%E5%B0%8F%E8%AE%B0/</id>
     <published>2024-08-03T01:22:00.000Z</published>
-    <updated>2024-08-03T01:47:15.144Z</updated>
+    <updated>2024-08-27T14:50:33.446Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇BLOG要记录最近与超算队的故事，本质上是一篇流水账，以及最真实的感受，感想</p><h1 id="这是关于梦想"><a href="#这是关于梦想" class="headerlink" title="这是关于梦想"></a>这是关于梦想</h1><p>这也不是我第一次当某个组织的小小的leader了，之前就是文艺部部长，嗯，但万分可惜啊！下一代文艺部部长并不会是我的部委，这其实挺好的，毕竟文艺部部长多累只有我心理清楚……也许还有我的前几任部长，对……很累……福利很不好……全靠用爱发电</p><p>但我确实实在在有这样一个梦想，就是在大学里面能有一个<strong>健康健全有传承有底蕴</strong>的小组织，之前我可能觉得会是goodlab，但goodlab里的大家各忙各的，有时少了那么点把大家联系起来的东西</p><p>而超算队也许就是这个最合适的平台，而且它是出生的（在我眼中）萌芽，有着无限的发展空间以及自由</p><h1 id="路在何方"><a href="#路在何方" class="headerlink" title="路在何方"></a>路在何方</h1><p>我有提出一个类似外院内院的制度？有点像传统的门派小说？？什么预备队员，什么参赛队员……诶这真的好吗？ 站在我个人的角度分析，也许目前还没有产生大家会日常讨论的氛围，但最起码互相之间是友好的，毕竟我们一直在讲”自驱力“，一直在讲自我探索，emm我倒是觉得凡是大学学生组织，凝聚力这件事就很难讲，毕竟大家还是偏于喜欢娱乐，喜欢放松，尤其是在暑假，所以这倒也无所谓，开学之后期待能好一些吧</p><p>暑假TODO</p><ul><li>完成BLOG-NCUSCC的初步建设 </li><li>整理出简洁明了的菜鸟指南</li><li>整理好NCUSCC-WIKI</li></ul><p>我是ENFJ，我想做主人公，我喜欢用爱发电！虽然是我自己病态的享受用爱发电的感觉……但这也没什么好说的，因为梦想嘛，虽然一个20岁的人了还在幼稚的谈论这些东西，但我此身还励志于遇到那么一些同样幼稚的人</p>]]></content>
     
@@ -120,10 +122,10 @@
     
     
     
-    <category term="思考" scheme="https://ywh555hhh.github.io/categories/%E6%80%9D%E8%80%83/"/>
+    <category term="杂谈" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="超算队" scheme="https://ywh555hhh.github.io/tags/%E8%B6%85%E7%AE%97%E9%98%9F/"/>
+    <category term="NCUSCC" scheme="https://ywh555hhh.github.io/tags/NCUSCC/"/>
     
   </entry>
   
@@ -158,8 +160,8 @@
     <title>备战期末时汉诺塔的思考</title>
     <link href="https://ywh555hhh.github.io/2024/06/12/005/"/>
     <id>https://ywh555hhh.github.io/2024/06/12/005/</id>
-    <published>2024-06-12T03:15:23.000Z</published>
-    <updated>2024-08-03T01:47:52.134Z</updated>
+    <published>2024-06-12T03:15:00.000Z</published>
+    <updated>2024-08-27T14:50:01.287Z</updated>
     
     <content type="html"><![CDATA[<p>最近的日子可能充满各种不愉快<br>大环境 是 要面临期末考试 担心没怎么用功的课程挂科 这是一忧<br>二是 新的电动车法案 很难评价 这是二忧<br>三是 OSPP项目里目前只是2&#x2F;6 很大概率是无法成功的 这是三担、忧<br>四是自己在整体不怎么愉快的情况下，体重控制这件事又有所松懈</p><p>但怎么说呢<br>逆商有时候才是体现一个人能力的时候<br>我必须在面对这些困难时找到合适的解决方案<br>而不是仅仅是心情不愉快</p><p>一步一步来<br>先解决担心挂科这件事这是可能后果最严重的</p><p><strong>吹尽狂沙始到金</strong>、</p><h2 id="关于汉诺塔"><a href="#关于汉诺塔" class="headerlink" title="关于汉诺塔"></a>关于汉诺塔</h2><p>沟槽的初中还是小学还是什么时候就接触这个东西了<br>但是到今天 才 通过 实操 似乎是 彻底理解了<br>希望 我自己不是被自己骗了</p><p><img src="/2024/06/12/005/goobixthree.png" alt="汉诺塔"></p><p>能解决这个事情兴趣也是不错的</p>]]></content>
     
@@ -174,12 +176,8 @@
     
     
     
-    <category term="Hello World" scheme="https://ywh555hhh.github.io/categories/Hello-World/"/>
+    <category term="杂谈" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
-    
-    <category term="日常" scheme="https://ywh555hhh.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="日记" scheme="https://ywh555hhh.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
@@ -187,8 +185,8 @@
     <title>goodlab 本科生 2024 毕业有感</title>
     <link href="https://ywh555hhh.github.io/2024/06/08/004/"/>
     <id>https://ywh555hhh.github.io/2024/06/08/004/</id>
-    <published>2024-06-08T06:26:07.000Z</published>
-    <updated>2024-06-08T06:37:52.215Z</updated>
+    <published>2024-06-08T06:26:00.000Z</published>
+    <updated>2024-08-27T14:49:35.111Z</updated>
     
     <content type="html"><![CDATA[<h1 id="观毕业有感"><a href="#观毕业有感" class="headerlink" title="观毕业有感"></a>观毕业有感</h1><p>今天恰是这届高考结束的日子<br>也是我们本科生这边一次聚餐<br>核心主题是为毕业生践行<br>同时也是CR哥难得的回来了</p><p>只能说 即使和这几位学长学姐分别接触的都有限<br>但是在有限的接触里依旧是能从他们身上学到很多东西<br>比如在毕业答辩中就有见识到他们的表达能力以及包括ppt能力在内的很多事情</p><p>值得学习吧</p><p>同时也感慨<br>进实验室也是快一年了<br>自己到底还是不是菜鸡呢？<br>真的就进步吗？<br>之后该怎么做呢？</p><p>本科生涯也已至半途<br>继续加油吧！</p>]]></content>
     
@@ -203,14 +201,10 @@
     
     
     
-    <category term="goodlab" scheme="https://ywh555hhh.github.io/categories/goodlab/"/>
+    <category term="杂谈" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="日常" scheme="https://ywh555hhh.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="日记" scheme="https://ywh555hhh.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-    <category term="goodlab" scheme="https://ywh555hhh.github.io/tags/goodlab/"/>
+    <category term="ROOM308" scheme="https://ywh555hhh.github.io/tags/ROOM308/"/>
     
   </entry>
   
@@ -218,8 +212,8 @@
     <title>常见基础搜索算法 以及 其在旅行商问题中的应用</title>
     <link href="https://ywh555hhh.github.io/2024/06/06/003/"/>
     <id>https://ywh555hhh.github.io/2024/06/06/003/</id>
-    <published>2024-06-06T12:31:17.000Z</published>
-    <updated>2024-06-07T00:50:00.463Z</updated>
+    <published>2024-06-06T12:31:00.000Z</published>
+    <updated>2024-08-27T14:48:43.143Z</updated>
     
     <content type="html"><![CDATA[<h1 id="常见基础搜索算法"><a href="#常见基础搜索算法" class="headerlink" title="常见基础搜索算法"></a>常见基础搜索算法</h1><p>搜索算法是在一定的搜索空间内，按照特定的策略，从一种状态移动到另一种状态的过程。<br><img src="/image/serach.excalidraw.svg" alt="serach"></p><p><em>这个图当然并不完整，只是为了表达Astar算法的优势是结合了不同算法的优势的</em></p><h2 id="BFS-和-DFS"><a href="#BFS-和-DFS" class="headerlink" title="BFS 和 DFS"></a>BFS 和 DFS</h2><p>在无权图中最常用的</p><ul><li><p><strong>BFS（广度优先搜索）</strong>：从根节点开始，沿着树的宽度遍历树的节点。如果所有节点均被访问，则算法终止。</p></li><li><p><strong>DFS（深度优先搜索）</strong>：从根节点开始，沿着树的深度遍历树的节点，尽可能深的搜索树的分支。</p></li></ul><h2 id="Dijkstra"><a href="#Dijkstra" class="headerlink" title="Dijkstra"></a>Dijkstra</h2><p>Dijkstra 算法是一种贪心算法，它总是选择当前最短的边，及总cost最小的边，并更新与该边相连的顶点的最短路径。这种方法可以保证找到的是全局最短路径，但是在搜索空间很大的情况下，可能需要处理大量的顶点和边，效率较低。</p><h2 id="启发式搜索"><a href="#启发式搜索" class="headerlink" title="启发式搜索"></a>启发式搜索</h2><p>启发式搜索是一种使用启发式方法寻找最优解的搜索策略，可以解决一些经典的搜索问题，如八数码问题、旅行商问题等。</p><h3 id="贪婪最佳优先搜索"><a href="#贪婪最佳优先搜索" class="headerlink" title="贪婪最佳优先搜索"></a>贪婪最佳优先搜索</h3><p>贪婪最佳优先搜索在每一步都选择估计距离目标最近的节点进行访问，这是通过一个启发式函数（也称为估价函数）来实现的。这种策略使得搜索过程更加快速，因为它优先访问看起来更接近目标的节点。但是，这种策略并不保证找到的路径是最短的，因为它可能会错过一些看起来距离目标较远但实际上是最短路径的节点。</p><h3 id="A-星-算法"><a href="#A-星-算法" class="headerlink" title="A 星 算法"></a>A 星 算法</h3><p><a href="https://www.redblobgames.com/">可视化互动学习A* 算法的好资源</a><br>A* 算法是一种启发式搜索算法，它结合了 Dijkstra 算法和启发式搜索的优点。它使用 Dijkstra 算法的思想，保证找到的是全局最短路径，同时使用启发式函数来优先搜索代价较小的状态，提高搜索效率。在选择启发式函数时，A* 算法有一个重要的条件，就是启发式函数必须不大于实际代价，这样可以保证找到的是最优解。</p><p><em>必须注意针对不同的问题 这些算法的特点可能就不同</em></p><h1 id="旅行商问题"><a href="#旅行商问题" class="headerlink" title="旅行商问题"></a>旅行商问题</h1><p>旅行商问题是一个经典的问题，描述的是一个旅行商要旅行n个城市，每个城市只能访问一次，最后回到原来的城市，如何规划线路使得总的旅行距离最短。</p><h2 id="NP-HARD问题"><a href="#NP-HARD问题" class="headerlink" title="NP-HARD问题"></a>NP-HARD问题</h2><p>NP-Hard问题是指那些至少和NP中最难的问题一样难的问题。旅行商问题就是一个NP-Hard问题。</p><h2 id="运用场景"><a href="#运用场景" class="headerlink" title="运用场景"></a>运用场景</h2><p>旅行商问题在物流、电路板制造等许多领域都有应用。</p><h1 id="搜索算法在旅行商问题中的应用"><a href="#搜索算法在旅行商问题中的应用" class="headerlink" title="搜索算法在旅行商问题中的应用"></a>搜索算法在旅行商问题中的应用</h1><p>搜索算法可以用来找到旅行商问题的最优解。例如，深度优先搜索和广度优先搜索可以用来遍历所有可能的路径，找到最短的路径。A*搜索则可以用启发式函数来优化搜索过程，提高搜索效率。</p><h2 id="能体现什么"><a href="#能体现什么" class="headerlink" title="能体现什么"></a>能体现什么</h2><p>搜索算法在旅行商问题中的应用能体现出搜索算法在解决实际问题中的重要性。同时，也能体现出不同搜索算法的优劣和适用情况。</p><h2 id="缺点是什么"><a href="#缺点是什么" class="headerlink" title="缺点是什么"></a>缺点是什么</h2><p>搜索算法在解决旅行商问题时，可能会遇到的主要问题是搜索空间太大，导致搜索效率低下。此外，对于NP-Hard问题，目前还没有多项式时间的确定性算法，所以搜索算法可能无法在合理的时间内找到最优解。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>搜索算法是解决复杂问题的重要工具，它们通过系统化的策略在庞大的状态空间中寻找最优解。在无权图的场景中，广度优先搜索（BFS）和深度优先搜索（DFS）是两种常用的基本方法，分别擅长广度和深度的探索。在加权图中，Dijkstra 算法以其贪心的特点能够高效地找到全局最短路径。启发式搜索算法，如贪婪最佳优先搜索和 A* 算法，通过启发式函数的引导，大大提高了搜索效率，特别适合处理复杂的最短路径问题。然而，当面临像旅行商问题（TSP）这样属于 NP-Hard 类的高难度问题时，这些算法虽然能提供一定的解决思路，但在实际应用中仍然面临着搜索空间过大和计算效率低的问题。总体来说，搜索算法在优化路径、解决复杂的组合问题方面具有广泛的应用前景，理解和掌握它们的特性和适用场景，对于解决实际问题至关重要。</p>]]></content>
     
@@ -234,7 +228,7 @@
     
     
     
-    <category term="人工智能" scheme="https://ywh555hhh.github.io/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="知识博客" scheme="https://ywh555hhh.github.io/categories/%E7%9F%A5%E8%AF%86%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="人工智能" scheme="https://ywh555hhh.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
@@ -247,8 +241,8 @@
     <title>关于本站的建设情况</title>
     <link href="https://ywh555hhh.github.io/2024/06/05/002/"/>
     <id>https://ywh555hhh.github.io/2024/06/05/002/</id>
-    <published>2024-06-05T05:40:10.000Z</published>
-    <updated>2024-07-14T11:24:27.325Z</updated>
+    <published>2024-06-05T05:40:00.000Z</published>
+    <updated>2024-08-27T14:48:13.028Z</updated>
     
     <content type="html"><![CDATA[<h1 id="建站初心"><a href="#建站初心" class="headerlink" title="建站初心"></a>建站初心</h1><p>就是需要一个地方来记录各种事情呢</p><p>不仅是学习 也是 感悟 与 生活</p><h2 id="好的资源的积累"><a href="#好的资源的积累" class="headerlink" title="好的资源的积累"></a>好的资源的积累</h2><p>A* 算法学习好资源 ：<a href="https://www.redblobgames.com/">https://www.redblobgames.com/</a></p><p><img src="/images/pasted-1.png" alt="REDBLOBGAMES"></p>]]></content>
     
@@ -265,10 +259,8 @@
     
     
     
-    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
+    <category term="杂言" scheme="https://ywh555hhh.github.io/categories/%E6%9D%82%E8%A8%80/"/>
     
-    
-    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
     
   </entry>
   
@@ -276,8 +268,8 @@
     <title>My First Post</title>
     <link href="https://ywh555hhh.github.io/2024/06/04/001/"/>
     <id>https://ywh555hhh.github.io/2024/06/04/001/</id>
-    <published>2024-06-04T13:25:14.000Z</published>
-    <updated>2024-06-05T10:17:24.063Z</updated>
+    <published>2024-06-04T13:25:00.000Z</published>
+    <updated>2024-08-27T14:47:24.451Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是我建立本站的第一篇博客"><a href="#这是我建立本站的第一篇博客" class="headerlink" title="这是我建立本站的第一篇博客"></a>这是我建立本站的第一篇博客</h1><h2 id="我最近过得怎么样"><a href="#我最近过得怎么样" class="headerlink" title="我最近过得怎么样"></a>我最近过得怎么样</h2><p>我很庆幸，在我的大学生涯中，我并非盲目度日，而是有目标地生活。我找到了一些我想做的事情，并且愿意投入时间去做。我觉得这很好。我的大二生活即将结束，虽然有些<strong>可惜</strong>我直到现在才开始逐步搭建自己的博客，但是，就像那句话说的，“开始一件事最好的时间是昨天，其次是今天”。我不认为我的大一生活毫无意义，但我更倾向于认为，是在大二的时候，我在计算机世界中找到了更加有意义的事。</p><p>最近，我通过抖音上的“速看电影系列”浏览了一些有哲理的有深度的电影。我知道通过剪辑版可能无法完全领略电影的深意，但我仍然有被触动。有些电影是关于亲情的，有些是关于友情的，有些是关于哲理的。总的来说，我有很多感触，只是遗憾我的文字表达能力有限，可能无法完全表达出来。</p><p>我想说“共勉”二字给大家。最近，我也认识了很多新朋友！</p><p>值得一提的是我现在的主页封面就是我最近认识了一位<a href="https://space.bilibili.com/21659390?spm_id_from=333.337.0.0">朋友</a>的作品。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">user:</span> <span class="string">Wayne</span> <span class="string">Yi</span></span><br><span class="line"><span class="attr">nickname:</span> <span class="string">teapot1de</span></span><br><span class="line"><span class="attr">chineseName:</span> <span class="string">易炜涵</span></span><br></pre></td></tr></table></figure><h2 id="我的规划"><a href="#我的规划" class="headerlink" title="我的规划"></a>我的规划</h2><p>OSPP </p><p>超算</p><p>可能就是我未来最近要忙的吧</p><p>同时还有烦人的期末</p><p>这个是真烦人呢</p>]]></content>
     
@@ -292,10 +284,8 @@
     
     
     
-    <category term="no categories" scheme="https://ywh555hhh.github.io/categories/no-categories/"/>
     
-    
-    <category term="no tag" scheme="https://ywh555hhh.github.io/tags/no-tag/"/>
+    <category term="Hello World" scheme="https://ywh555hhh.github.io/tags/Hello-World/"/>
     
   </entry>
   
