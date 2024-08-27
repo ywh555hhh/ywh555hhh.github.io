@@ -1,7 +1,10 @@
 title: CSAPP-01-漫游一遍找找感觉
-tags: no tag
-categories: no categories
-date: 2024-08-03 21:30:07
+tags:
+  - linux
+  - 计组
+categories:
+  - 技术博客
+date: 2024-08-03 21:30:00
 ---
 # 这是一篇读书笔记
 拜读传统意义上的神作，CSAPP，我不会很体系的去整理这份笔记，我将拿出那些平时我没有关注到的细节记录下来

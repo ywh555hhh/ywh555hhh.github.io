@@ -1,8 +1,10 @@
 title: DAIRY KEYBOARD 01
 author: Wayne Yi
+tags:
+  - ENG
+categories:
+  - DAIRY KEYBOARD
 date: 2024-08-25 13:44:34
-tags:ENG
-categories: DAIRY-KEYBOARD
 ---
 I  suddenly realize I couldn't use keyboard to write down any English posts or anything else , so I don't have the ability so I start to use hexo blog to practice everyday so I can improve my ability .
 
